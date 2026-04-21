@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frosty FiveM</title>
+<title>Frosty RP Kauppa</title>
 
 <style>
 body{
@@ -30,7 +30,7 @@ color:#ddd;
 
 .btn{
 display:inline-block;
-margin-top:20px;
+margin-top:15px;
 padding:15px 35px;
 background:#00bfff;
 color:white;
@@ -40,15 +40,35 @@ font-size:20px;
 }
 
 section{
-padding:60px 20px;
+padding:50px 20px;
 }
 
 .card{
 background:rgba(255,255,255,0.08);
 padding:25px;
-margin:15px auto;
-max-width:700px;
+margin:20px auto;
+max-width:800px;
 border-radius:15px;
+}
+
+.shop{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.product{
+background:rgba(255,255,255,0.08);
+padding:20px;
+border-radius:15px;
+}
+
+.price{
+font-size:35px;
+margin:10px 0;
+font-weight:bold;
 }
 
 footer{
@@ -62,24 +82,42 @@ color:#aaa;
 
 <header>
 <h1>❄ Frosty RP ❄</h1>
-<p>Suomalainen FiveM roolipelipalvelin</p>
+<p>Virallinen FiveM kauppa</p>
 <a class="btn" href="#">Liity Discordiin</a>
 </header>
 
 <section>
 <div class="card">
-<h2>Mikä Frosty on?</h2>
-<p>Frosty on laadukas suomalainen FiveM serveri jossa on hyvä community ja aktiivinen staff.</p>
+<h2>F-Coin Kauppa</h2>
+<p>Osta krediittejä helposti PayPalilla</p>
 </div>
 
-<div class="card">
-<h2>Ominaisuudet</h2>
-<p>🚓 Poliisi<br>🚑 EMS<br>🚗 Custom autot<br>💰 Työt<br>🔫 Gangit</p>
+<div class="shop">
+
+<div class="product">
+<h2>5 000 F-Coin</h2>
+<div class="price">5€</div>
+<a class="btn" href="https://paypal.me/SUNNIMI/5">Osta</a>
 </div>
 
-<div class="card">
-<h2>Säännöt</h2>
-<p>Ei RDM / VDM / Toxic käytös</p>
+<div class="product">
+<h2>10 000 F-Coin</h2>
+<div class="price">10€</div>
+<a class="btn" href="https://paypal.me/SUNNIMI/10">Osta</a>
+</div>
+
+<div class="product">
+<h2>20 000 F-Coin</h2>
+<div class="price">20€</div>
+<a class="btn" href="https://paypal.me/SUNNIMI/20">Osta</a>
+</div>
+
+<div class="product">
+<h2>50 000 F-Coin</h2>
+<div class="price">50€</div>
+<a class="btn" href="https://paypal.me/SUNNIMI/50">Osta</a>
+</div>
+
 </div>
 </section>
 
